@@ -39,4 +39,15 @@ class EmployeeRestController {
         Employee dbEmployee = employeeService.save(employee);
         return dbEmployee;
     }
+
+    @PutMapping("/employees")
+    public Employee updateEmployee(@RequestBody Employee employee){
+        return employeeService.save(employee);
+    }
+
+    @DeleteMapping("/employees/{employeeID}")
+    public String delete(@PathVariable int employeeID){
+        employeeService.deleteById(employeeID);
+        return "employee with ID: " + employeeID + " is deleted.";
+    }
 }
