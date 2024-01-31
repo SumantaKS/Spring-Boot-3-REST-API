@@ -1,4 +1,6 @@
 # REST API with CRUD implementation built using Spring/Spring Boot
+A REST API for an Employee Directory  
+
 Developed on:
 - Java Version: 18.0.2.1
 - Spring Boot: 3.2.2
@@ -9,9 +11,9 @@ Developed on:
     3. MySQL Driver: MySQL JDBC driver.
     4. Spring Boot Dev Tools: Provides fast application restarts, LiveReload, and configurations for enhanced development experience.
 # How to run -- Installation
-- To run this project, you need to have Java installed on your system. 
+- To run this project, you need to have Java installed on your system.
 - Spring Boot 3.2.2 requires at least Java 17 or above.
-  
+
 - Once you have installed the right version of Java, you can follow these steps:
 
 1. Clone the repository.
@@ -29,7 +31,7 @@ Developed on:
 # NOTE
 You can create your own databse table directly on MySQL Workbench(Skip step 2).    
 OPTIONAL: Use this in ``application.properties`` to autocreate the table from java code: ``spring.jpa.hibernate.ddl-auto=create``   
-**Make sure to change the entity name to your table name, and other subsequent updates(objects and methods related to that entity/class)**  
+**Make sure to change the entity name to your table name, and other subsequent updates(objects and methods related to that entity/class)**
 # API Requirements
 A REST API for the Employee Directory 
 
@@ -50,3 +52,5 @@ Main resource / entity: **employees**
 | GET   |/api/employees/{employeeId}| Read a single entity    |
 | PUT    |/api/employees| Update an existing entity    |  
 | DELETE    |/api/employees/{employeeId}| Delete an existing entity    |  
+
+For POST and PUT make sure the body sent is in JSON format.
