@@ -28,5 +28,5 @@ Developed on:
 7. Check below for the various API methods.
 # NOTE
 You can create your own databse table directly on MySQL Workbench.  
-OPTIONAL: Use this in ``application.properties`` to autocreate the table from java code: ``spring.jpa.hibernate.ddl-auto=create`` 
+OPTIONAL: Use this in ``application.properties`` to autocreate the table from java code: ``spring.jpa.hibernate.ddl-auto=create``   
 **Make sure to change the entity name to your table name, and other subsequent updates(objects and methods related to that entity/class)**  
