@@ -43,10 +43,10 @@ REST clients should be able to:
 Main resource / entity: **employees**
 
 **HTTP methods to assign action on resource**  
-| Column 1 | Column 2 |  
-|----------|----------|  
-| Row 1    | Row 1    |  
-| Row 2    | Row 2    |  
-| Row 3    | Row 3    |  
-| Row 4    | Row 4    |  
-| Row 5    | Row 5    |  
+| HTTP Method | Endpoint | CRUD Action|  
+|----------|----------|----------|  
+| POST    |/api/employees| Create a new entity    |  
+| GET   |/api/employees| Read a list of entities   |  
+| GET   |/api/employees/{employeeId}| Read a single entity    |
+| PUT    |/api/employees| Update an existing entity    |  
+| DELETE    |/api/employees/{employeeId}| Delete an existing entity    |  
