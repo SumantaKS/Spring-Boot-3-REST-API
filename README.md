@@ -26,3 +26,7 @@ Developed on:
 5. The default port is `8080`.
 6. Use a client tool like Postman to make the API calls.
 7. Check below for the various API methods.
+# NOTE
+You can create your own databse table directly on MySQL Workbench.
+OPTIONAL: Use this in application.properties to autocreate the table from java code: spring.jpa.hibernate.ddl-auto=create
+**Make sure to change the entity name to your table name, and other subsequent updates(objects and methods related to that entity/class)**
