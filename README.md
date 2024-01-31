@@ -1,5 +1,10 @@
 # REST API with CRUD implementation built using Spring/Spring Boot
-
+Developed on:
+- Java Version: 18.0.2.1
+- Spring Boot: 3.2.2
+- Package Manager: Maven (https://start.spring.io/)
+- Dependencies:
+    1)
 # How to run -- Installation
 - To run this project, you need to have Java installed on your system. 
 - Spring Boot 3.2.2 requires at least Java 17 or above.
