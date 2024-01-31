@@ -1,4 +1,4 @@
-# REST API with CRUD implementation built using Spring/Spring Boot
+# REST API with CRUD implementation built using Spring/Spring Boot that connects to a database
 A REST API for an Employee Directory  
 
 Developed on:
@@ -54,3 +54,10 @@ Main resource / entity: **employees**
 | DELETE    |/api/employees/{employeeId}| Delete an existing entity    |  
 
 For POST and PUT make sure the body sent is in JSON format.
+# Application Architecture
+[EMPLOYEE REST CONTROLLER] <--> [EMPLOYEE SERVICE] <--> [EMPLOYEE DAO] <--> [DATABASE]   
+
+Any other DAOs'(Skills DAO, Payroll DAO, etc...) can be connected to Employee Service.
+# Future builds?
+Rest Controller, Employee Service and Employee DAO layers can be eliminated, and replaced by **Spring Data REST** & **Spring Data JPA**.  
+This will reduce boilerplate codes, but at the cost of custom implementation of Rest Controller and database interaction methods.
