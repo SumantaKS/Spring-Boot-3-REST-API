@@ -4,7 +4,10 @@ Developed on:
 - Spring Boot: 3.2.2
 - Package Manager: Maven (https://start.spring.io/)
 - Dependencies:
-    1)
+    1. Spring Web: For building web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.
+    2. Spring Data JPA: Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate.
+    3. MySQL Driver: MySQL JDBC driver.
+    4. Spring Boot Dev Tools: Provides fast application restarts, LiveReload, and configurations for enhanced development experience.
 # How to run -- Installation
 - To run this project, you need to have Java installed on your system. 
 - Spring Boot 3.2.2 requires at least Java 17 or above.
