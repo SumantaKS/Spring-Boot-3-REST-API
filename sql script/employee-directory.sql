@@ -24,5 +24,5 @@ INSERT INTO `employee` VALUES
 	(2,'Samuel','Drake','samdrake@gmail.com'),
 	(3,'Victor','Sullivan','sully@gmail.com'),
 	(4,'Lara','Croft','laracroft@gmail.com'),
-	(5,'Lalo','Salamanca','lalo@gmail.com');
+	(5,'Lalo','Salamanca','lalosalamanca@gmail.com');
 
