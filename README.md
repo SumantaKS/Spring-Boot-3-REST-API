@@ -164,5 +164,6 @@ Username: peter only has EMPLOYEE level access. As such, performing ADMIN level 
 Any other DAOs'(Skills DAO, Payroll DAO, etc...) can be connected to Employee Service.
 # Future builds?
 Rest Controller, Employee Service and Employee DAO layers can be eliminated, and replaced by **Spring Data REST** & **Spring Data JPA**.  
+Project: https://github.com/SumantaKS/REST-API-CRUD-Spring-Data-REST-and-JPA
 This will reduce boilerplate codes, but at the cost of custom implementation of Business Logic, Rest Controller and database interaction methods.  
 
