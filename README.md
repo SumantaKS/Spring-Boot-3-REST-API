@@ -95,7 +95,7 @@ Three layers of security is implemented based on:
 | DELETE      |/api/employees/{employeeId}     | Delete employee | ADMIN     |
 
 # Database EER Diagram
-![eer.png](..%2F..%2F..%2F..%2F..%2Feer.png)
+![eer](readme img assets/eer.png)
 
 ## Tables 
 Table: employee  
@@ -145,7 +145,7 @@ Table: user_roles
 
 
 ## GET : List of Employees
-![img.png](readme img assets/img.png)
+![img](readme img assets/img.png)
 ## GET : Single Employee
 ![img_1.png](readme img assets/img_1.png)
 ## POST
