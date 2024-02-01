@@ -95,7 +95,7 @@ Three layers of security is implemented based on:
 | DELETE      |/api/employees/{employeeId}     | Delete employee | ADMIN     |
 
 # Database EER Diagram
-![eer](readme img assets/eer.png)
+![eer](img/eer.png)
 
 ## Tables 
 Table: employee  
@@ -145,18 +145,18 @@ Table: user_roles
 
 
 ## GET : List of Employees
-![img](readme img assets/img.png)
+![GET](img/img.png)
 ## GET : Single Employee
-![img_1.png](readme img assets/img_1.png)
+![GET](img/img_1.png)
 ## POST
-![img_3.png](readme img assets/img_3.png)
+![POST](img/img_3.png)
 ## PUT 
-![img_4.png](readme img assets/img_4.png)
+![PUT](img/img_4.png)
 ## DELETE : Single Employee
-![img_5.png](readme img assets/img_5.png)
+![DELETE](img/img_5.png)
 ## Performing Unauthorised calls
 Username: peter only has EMPLOYEE level access. As such, performing ADMIN level actions(DELETE) will throw a **403 Forbidden** status code.  
-![img_6.png](readme img assets/img_6.png)
+![UNAUTHORISED](img/img_6.png)
 
 # Application Architecture
 [EMPLOYEE REST CONTROLLER] <--> [EMPLOYEE SERVICE] <--> [EMPLOYEE DAO] <--> [DATABASE]   
