@@ -139,7 +139,7 @@ Table: user_roles
 
 # Postman, API calls and expected Output
 
-- Make sure your select Authorization Type as **Basic Auth** 
+- Make sure you select Authorization Type as **Basic Auth** 
 - Body should be in **Raw - JSON** format
 - Perform GET calls after every POST, PUT and DELETE actions to check the updated database
 
